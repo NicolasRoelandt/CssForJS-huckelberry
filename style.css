@@ -15,12 +15,18 @@ body {
 
 /* Add styles here! */
 
-header {
-  margin : auto;
+.intro-chunk{
+    max-width: 360px;
+    padding-left: 64px; 
+    margin-bottom: 48px;
 }
 
 p, h2, h1 {
-  padding : 16px;
+  margin : 16px;
+}
+
+h1 {
+  margin-bottom : 32px;
 }
 
 strong {
@@ -30,12 +36,14 @@ strong {
 main {
   border-top : 8px solid var(--border-grey); 
   background-color : hsl(0deg, 0%, 60%);
+  padding-left: 64px;
+  padding-top: 64px;
+  padding-bottom: 36px;
 }
 
 .card {
    background-color: white;
    max-width: 600px;
-   margin: auto;
    border-bottom: 8px solid var(--border-grey);
 }
 
